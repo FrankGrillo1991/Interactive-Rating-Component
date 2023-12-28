@@ -1,7 +1,7 @@
 const ratingCard = document.querySelector('.ratings-container')
 const thankCard = document.querySelector('.thank-you-container')
 const submitButton = document.querySelector('rating')
-const rating = document.getElementById('rating')
+const rating = document.getElementById('ratings')
 const ratingNumber = document.querySelectorAll('.btn')
 
 submitButton.addEventListener('click', () => {
@@ -11,6 +11,6 @@ submitButton.addEventListener('click', () => {
 
 ratingNumber.forEach((rates) => {
     rates.addEventListener('click', () => {
-        rating.innerHTML = rates.innerHTML
+        ratings.innerHTML = rates.innerHTML
     })
 })
