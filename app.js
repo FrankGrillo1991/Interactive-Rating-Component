@@ -1,6 +1,6 @@
 const ratingCard = document.querySelector('.ratings-container')
 const thankCard = document.querySelector('.thank-you-container')
-const submitButton = document.querySelector('rating')
+const submitButton = document.querySelector('.submit-btn')
 const rating = document.getElementById('ratings')
 const ratingNumber = document.querySelectorAll('.btn')
 
