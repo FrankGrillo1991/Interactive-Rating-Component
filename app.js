@@ -9,8 +9,8 @@ submitButton.addEventListener('click', () => {
     ratingCard.computedStyleMap.display = "none";
 });
 
-ratingNumber.forEach((rates) => {
+ratingNumber.forEach(rates); () => {
     rates.addEventListener('click', () => {
-        rating.innerHTML = rates.innerHTML
+        rating.innerHTML = rates.innerHTML;
     });
-});
+};
